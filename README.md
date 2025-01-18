@@ -32,7 +32,7 @@
    git clone https://github.com/lahouelsa/ProGear-Photography
    
 2.Accédez au répertoire du projet et installez les dépendances nécessaires :
-   cd ProGear-Photography
+   cd projet_reactjs
    npm install
 
 3.Lancez le serveur de développement localement :
