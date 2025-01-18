@@ -1,0 +1,166 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	outline: none;
+	font-family: 'Tw Cen MT', sans-serif;
+}
+
+
+.containern {
+	position: relative;
+	height: 100vh;
+	width: 100%;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url('image/I30.jpg');
+	background-size: cover;
+	background-position: center;
+	padding: 0 8%;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 5px 0;
+}
+
+nav .logo {
+	width: 120px;
+	cursor: pointer;
+}
+
+nav ul {
+	display: flex;
+	justify-content: flex-end;
+	flex: 1;
+	padding-right: 40px;
+	text-align: right;
+	list-style-type: none;
+}
+
+ul li {
+	margin-right: 10px;
+}
+
+ul li a {
+	position: relative;
+	padding: 10px 20px;
+	text-decoration: none;
+	color: #fff;
+	font-size: 16px;
+}
+
+ul li a::after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 0;
+	transform: translateX(-50%) translateY(-5px);
+	height: 3px;
+	background:rgb(193, 153, 173);
+	transition: 0.3s;
+}
+
+ul li a:hover::after {
+	width: 38%;
+}
+
+.site-container {
+	position: absolute;
+	bottom: 10%;
+	color: #fff;
+}
+
+.site-container p {
+	font-size: 50px;
+	font-weight: bold;
+}
+
+
+.site-container .row {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-top: 40px;
+}
+
+.row a {
+	display: flex;
+	align-items: center;
+	padding: 5px 20px;
+	text-decoration: none;
+	color: #fff;
+	border: 1px solid #fff;
+	margin-right: 40px;
+	font-size: 18px;
+	transition: 0.3s;
+}
+
+.row a:hover {
+	background-color: #fff;
+	color: #000;
+}
+
+.row a span {
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 2;
+	margin-left: 10px;
+}
+
+.row span {
+	font-size: 18px;
+}
+
+.social-icons {
+	position: absolute;
+	right: 40%;
+	bottom: 42%;
+}
+
+.social-icons a {
+	padding: 9px;
+	margin-right:8px;
+}
+.bt{
+	position: absolute;
+	right: 40%;
+	bottom: 92%;
+	border: none;
+	border-radius: 15px;
+	
+
+}
+.card1 img {
+	border: none;
+	border-radius: 10px; /* Remplacez 8px par la valeur de la bordure arrondie que vous souhaitez */
+	box-shadow: none; /* Commencez sans ombre par défaut */
+	cursor: pointer;
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .outline{
+	background-color: #fff;
+	border-color: rgb(193, 153, 173);
+	color: #343a40;
+	width: 100px;
+	height: 34px;
+  }
+.textcenter{
+	background-color: #fff;
+	margin-left: 30px;
+}
+.warning{
+	background-color: rgb(193, 153, 173);
+	color: #f8f9fa;
+	font-weight: bold;
+	border: 12px;
+	height: 30px;
+	font-size: 18px;
+	font-weight: bold;
+	width: 166px;
+}

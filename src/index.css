@@ -1,0 +1,90 @@
+/* Global Styles */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #faf8fa;
+  
+}
+/* Header Styles */
+.navbar {
+  background-color: #343a40;
+  color: white;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+/* Card Styles */
+.card {
+  border: 1px solid #f7f2f6;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+.card-img-top{
+  height: 272px;
+}
+.card img {
+  border: none;
+  border-radius: 10px; /* Remplacez 8px par la valeur de la bordure arrondie que vous souhaitez */
+  box-shadow: none; /* Commencez sans ombre par défaut */
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card img:hover {
+  transform: translateX(15px);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+
+.card-body {
+  padding:15px;
+}
+
+.card-title {
+  font-size: 1.2rem;
+}
+
+.card-text {
+  color: #000509;
+}
+
+.list-group-item {
+  background-color: #f8f9fa;
+}
+
+/* Button Styles */
+.primary {
+  background-color: rgb(193, 153, 173);
+  color: #f8f9fa;
+  font-weight: bold;
+}
+
+.danger {
+  background-color: rgb(193, 153, 173);
+  color: #f8f9fa;
+  font-weight: bold;
+  border: 12px;
+  height: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  width: 166px;
+}
+.container-fluid{
+  background-color: rgb(255, 255, 255);
+}
+
+/* Responsive Styles */
+@media (max-width: 576px) {
+  .navbar-nav .nav-link {
+    padding: 10px;
+  }
+
+  .card {
+    width: 100%;
+  }
+  
+}
+
