@@ -29,7 +29,7 @@
 ## 🛠️ Installation
 
 1. Clonez ce projet sur votre machine locale à l'aide de la commande suivante :
-   git clone https://github.com/ton-utilisateur/ProGear-Photography.git
+   git clone https://github.com/lahouelsa/ProGear-Photography
    
 2.Accédez au répertoire du projet et installez les dépendances nécessaires :
    cd ProGear-Photography
