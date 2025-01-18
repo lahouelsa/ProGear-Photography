@@ -1,43 +1,42 @@
 [
-    {
-      "id": 1,
-      "reference": "Huilejs",
-      "designation": "Al Jazira Huile de grignons d'olive",
-      "marque": "Al Jazira",
-      "prixAchat": 20.3,
-      "prixVente": 23.5,
-      "qtestock": 120,
-      "imageartpetitf": "images/huilealjazeera.jpg"
-    },
-    {
-      "id": 2,
-      "reference": "lait",
-      "designation": "Delice Lait UHT demi-écrémé - 1L",
-      "marque": "Delice",
-      "prixAchat": 1.2,
-      "prixVente": 1.35,
-      "qtestock": 1000,
-      "imageartpetitf": "images/laitdelice1.jpg"
-    },
-    {
-      "id": 3,
-      "reference": "eauxmin",
-      "designation": "Delice EAU MINÉRALE 1.5 L",
-      "marque": "Delice",
-      "prixAchat": 0.39,
-      "prixVente": 0.58,
-      "qtestock": 1000,
-      "imageartpetitf": "images/eausabrine.jpg"
-    },
-    {
-      "id": 4,
-      "reference": "farsan",
-      "designation": "Sanabel Carthage Farine Paquet De 1Kg",
-      "marque": "Sanabel Carthage",
-      "prixAchat": 0.7,
-      "prixVente": 0.85,
-      "qtestock": 220,
-      "imageartpetitf": "images/farine.jpg"
-    }
-  ]
-  
+  {
+    "id": 1,
+    "reference": "canon-eos-r6",
+    "designation": "Canon EOS R6 - Appareil photo sans miroir",
+    "marque": "Canon",
+    "prixAchat": 1500.0,
+    "prixVente": 1700.0,
+    "qtestock": 50,
+    "imageartpetitf": "images/canon-eos-r6.jpg"
+  },
+  {
+    "id": 2,
+    "reference": "nikon-d7500",
+    "designation": "Nikon D7500 - Appareil photo reflex numérique",
+    "marque": "Nikon",
+    "prixAchat": 800.0,
+    "prixVente": 950.0,
+    "qtestock": 80,
+    "imageartpetitf": "images/nikon-d7500.jpg"
+  },
+  {
+    "id": 3,
+    "reference": "canon-lens-24-70",
+    "designation": "Canon EF 24-70mm f/2.8L II USM - Objectif standard",
+    "marque": "Canon",
+    "prixAchat": 1200.0,
+    "prixVente": 1400.0,
+    "qtestock": 30,
+    "imageartpetitf": "images/canon-lens-24-70.jpg"
+  },
+  {
+    "id": 4,
+    "reference": "nikon-lens-50mm",
+    "designation": "Nikon AF-S NIKKOR 50mm f/1.8G - Objectif standard",
+    "marque": "Nikon",
+    "prixAchat": 200.0,
+    "prixVente": 250.0,
+    "qtestock": 100,
+    "imageartpetitf": "images/nikon-lens-50mm.jpg"
+  }
+]
